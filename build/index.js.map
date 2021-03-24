@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.ts"],"sourcesContent":["export const sum = (a: number, b: number): number => a + b\r\n"],"names":[],"mappings":";;;;IAAa,GAAG,GAAG,UAAC,CAAS,EAAE,CAAS,IAAa,OAAA,CAAC,GAAG,CAAC;;;;"}
