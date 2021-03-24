@@ -3,4 +3,4 @@ import Button from './Button';
 
 export default { title: 'Button' };
 
-export const basic = () => <Button />;
+export const basic = (): React.ReactNode => <Button />;
