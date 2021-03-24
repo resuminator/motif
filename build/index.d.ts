@@ -1,1 +1,2 @@
-export declare const sum: (a: number, b: number) => number;
+import MyComponent from './components/Button';
+export { MyComponent };

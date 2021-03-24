@@ -1,4 +1,6 @@
-var sum = function (a, b) { return a + b; };
+import * as React from 'react';
 
-export { sum };
+var Button = function () { return (React.createElement("button", null, "Click Here")); };
+
+export { Button as MyComponent };
 //# sourceMappingURL=index.es.js.map
