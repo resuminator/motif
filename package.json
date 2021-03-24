@@ -7,7 +7,8 @@
   "jsnext:main": "build/index.es.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint . --ext .ts"
   },
   "files": [
     "build"
@@ -24,6 +25,9 @@
   "homepage": "https://github.com/resuminator/motif#readme",
   "devDependencies": {
     "@types/jest": "^26.0.21",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
     "jest": "^26.6.3",
     "rollup": "^2.42.3",
     "rollup-plugin-commonjs": "^10.1.0",
