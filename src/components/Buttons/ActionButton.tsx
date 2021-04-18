@@ -52,7 +52,8 @@ const ActionButton: React.FC<IActionButtonProps> = ({
   endIcon = null,
   onClick,
   circle,
-  loading
+  loading,
+  disabled
 }) => {
   if (startIcon && endIcon)
     throw new Error('Error: Multiple icon props recieved');
@@ -100,6 +101,7 @@ const ActionButton: React.FC<IActionButtonProps> = ({
 
   return (
     <Button
+      disabled={disabled}
       className={className}
       variant="contained"
       color="primary"
