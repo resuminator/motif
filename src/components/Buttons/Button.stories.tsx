@@ -22,7 +22,7 @@ const Template: Story<IActionButtonProps> = (args) => (
 const ForAll = {
   circle: false,
   loading: false
-}
+};
 
 export const Action = Template.bind({});
 Action.args = {
@@ -30,13 +30,18 @@ Action.args = {
   text: 'Hello'
 };
 
-export const WithIcons = Template.bind({});
-WithIcons.args = {
+export const WithStartIcon = Template.bind({});
+WithStartIcon.args = {
   ...Action.args,
   ...ForAll,
-  startIcon: <FaCoffee />,
+  startIcon: <FaCoffee />
+};
+
+export const WithEndIcon = Template.bind({});
+WithEndIcon.args = {
+  ...Action.args,
+  ...ForAll,
   endIcon: <FaArrowRight size="1rem" />
-  
 };
 
 export const OnlyIcon = Template.bind({});
